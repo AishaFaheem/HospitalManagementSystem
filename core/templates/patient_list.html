@@ -1,0 +1,8 @@
+<!-- patient_list.html -->
+<h1>Patient List</h1>
+<ul>
+    {% for patient in patients %}
+        <li>{{ patient.name }} - Gender: {{ patient.get_gender_display }} - Insurance ID: {{ patient.insurance_id }} {% if patient.is_insurance_verified %}(Verified){% endif %}</li>
+        <!-- Add other patient details as needed -->
+    {% endfor %}
+</ul>
