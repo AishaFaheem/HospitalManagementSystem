@@ -1,8 +1,0 @@
-<!-- verify_insurance.html -->
-<h1>Verify Insurance ID</h1>
-<p>Patient: {{ patient.name }}</p>
-<p>Insurance ID: {{ patient.insurance_id }}</p>
-<form method="post">
-    {% csrf_token %}
-    <input type="submit" value="Verify Insurance">
-</form>
