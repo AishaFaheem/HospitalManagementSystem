@@ -11,16 +11,16 @@ Hospital Management System is a Project in python created by Aisha Faheem (10257
    
 I created UML Diagrams using draw.io, manually.
    
-[Use Case Diagram](direct_image_url)  
+[Use Case Diagram:](https://drive.google.com/file/d/1C8CwuUi2ikwfCBTvw4JreK1dGvGdz1bP/view?usp=sharing)  
 A Use Case Diagram provides a visual representation of the functionality offered by a system, depicting actors, their objectives, and any interactions or dependencies between those use cases. It offers a high-level overview of how users (actors) interact with the system to accomplish specific goals.
 
-[Sequence Diagram](direct_image_url)  
+[Sequence Diagram:](https://drive.google.com/file/d/1yZeZiP1Gu3jgwc8QjmWHAnJmd7GfYQoG/view?usp=sharing) 
 In a Sequence Diagram, the interactions between various processes or components of a system are illustrated, showing the sequence in which these interactions occur. It visually depicts how processes communicate with each other over time, highlighting the order of execution and the exchange of messages.
 
-[Class Diagram](https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing)  
+[Class Diagram:](https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing)  
 A Class Diagram presents the structure of a system by depicting its classes, along with their attributes, methods (or operations), and the relationships between objects. It offers a static view of the system's architecture, emphasizing the blueprint of its components and their associations.
 
-[Activity Diagram](direct_image_url)  
+[Activity Diagram:](https://drive.google.com/file/d/1hzPOMeXhx_iHLX5nDVmyN57-fu2rObr7/view?usp=sharing)
 An Activity Diagram illustrates the flow of control or data among different activities within a system. It demonstrates the sequence of actions or steps involved in a process, showcasing decision points, parallel activities, and the overall workflow. Activity diagrams provide insights into the behavior of the system, emphasizing process flow and logic.
 
 
