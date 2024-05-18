@@ -1,0 +1,18 @@
+name: Codacy Analysis
+
+on: [push, pull_request]
+
+jobs:
+  codacy:
+    runs-on: ubuntu-latest
+    name: Codacy Code Quality Check
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Run Codacy Analysis
+      uses: codacy/codacy-analysis-cli-action@master
+      with:
+        project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+        upload-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+        gh-code-scanning-compat: true
