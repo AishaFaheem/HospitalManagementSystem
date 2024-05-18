@@ -99,6 +99,17 @@ I also made use of the **pylint** library to analyse the code for convention mis
 
 
 
+Here is the regex I used for naming conventions:
+^[a-zA-Z_][a-zA-Z0-9_]*$
+^: Start of the line
+[a-zA-Z_]: Matches any uppercase letter, lowercase letter, or underscore (allows both camelCase and snake_case)
+[a-zA-Z0-9_]*: Matches any alphanumeric character or underscore (allows digits after the first character)
+$: End of the line
+
+This regular expression ensures that:
+The name starts with a letter or underscore.
+Subsequent characters can be letters, digits, or underscores.
+The name can't start with a digit.
    
 ## 6 & 7. Build Management and CI/CD:
 I used GitHub Actions in conjunction with Codacy for CI/CD pipeline integration.
