@@ -2,7 +2,7 @@
 
 Hospital Management System is a Project in python created by Aisha Faheem (102579) a Master's Student at BHT studying Data Science.
 
-## 1. Git/Github:
+## 1. Git:
 
 I used github for controlling variants and versions. Since this was fairly new for me, I did initially struggle with it but this was done to store, push code and even uml diagram variants.
 
