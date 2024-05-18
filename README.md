@@ -112,6 +112,9 @@ And here is a screenshot of the completed action
 
 
 ## 8. Unit Tests:
+Unit testing for my code is done in the unit_test.py file. The file tests adding and updating patient information. It also checks for invalid information entries.
+
+
 ## 9. IDE:
 ## 10. DSL:
 ## 11. Functional Programming:
