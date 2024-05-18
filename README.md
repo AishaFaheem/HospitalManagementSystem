@@ -67,19 +67,19 @@ To check the metrics of my code, I made use of Codacy. The following are the met
 
 Code Quality: <a href="https://app.codacy.com/gh/AishaFaheem/HospitalManagementSystem/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/1afac9a7ef1a464e927851cd1253d833"/></a>
 
--Issues: 
+- Issues: 
 ![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/8792f496-ff3c-4699-bf2d-c9236cc7e7a5)
 ![2](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/ed153d73-dc2d-4070-9abf-3f93f51c02fb)
 ![3](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/04879fda-abda-43ae-824f-4aadd8a85002)
 
 
--Complexity: 
+- Complexity: 
 
 
 ![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/f9d35cd4-97f3-4bba-8510-d34b8c487bca)
 
 
--Duplication: 
+- Duplication: 
 
 
 ![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/a5b056a1-e0b3-4bb6-b0e2-4fa1a8d11d28)
@@ -99,7 +99,7 @@ I also made use of the **pylint** library to analyse the code for convention mis
 
 
 
-Here is the regex I used for naming conventions:
+- Here is the regex I used for naming conventions:
 ^[a-zA-Z_][a-zA-Z0-9_]*$
 ^: Start of the line
 [a-zA-Z_]: Matches any uppercase letter, lowercase letter, or underscore (allows both camelCase and snake_case)
@@ -107,11 +107,11 @@ Here is the regex I used for naming conventions:
 $: End of the line
 
 This regular expression ensures that:
-The name starts with a letter or underscore.
-Subsequent characters can be letters, digits, or underscores.
-The name can't start with a digit.
+- The name starts with a letter or underscore.
+- Subsequent characters can be letters, digits, or underscores.
+- The name can't start with a digit.
    
-## 6 & 7. Build Management and CI/CD:
+## 6 & 7. Advanced Build Management and CI/CD:
 I used GitHub Actions in conjunction with Codacy for CI/CD pipeline integration.
 
 Here is the link the yaml file for [Github Actions](https://github.com/AishaFaheem/HospitalManagementSystem/blob/main/.github/workflows/codacy-analysis.yml)
@@ -137,8 +137,22 @@ I opted for Visual Studio Code (VS Code) as my IDE for the Hospital Management S
 
 -Integrated Terminal: The integrated terminal eliminated the need to switch between applications, streamlining my workflow.
 
+## 10. Functional Programming:
+This code exhibits several aspects of functional programming:
 
-## 10. DSL:
+1. Modularity: The code is divided into classes and methods, each responsible for a specific functionality. For example, the HospitalApp class handles GUI initialization, database operations, and button actions, while the Patient class initializes patient data attributes.
+
+2. Pure Functions: Many methods in the HospitalApp class can be considered as pure functions as they rely only on their input arguments and do not modify any external state. For example, the create_patient_info_fields method takes frame as input and generates patient information fields within that frame without modifying any external state.
+
+3. First-class Functions: Functions are treated as first-class citizens. For example, button commands are assigned functions (self.i_prescription, self.i_prescription_data, etc.), and these functions can be passed around as arguments and returned from other functions.
+
+4. Higher-order Functions: The create_buttons method creates buttons dynamically by taking a list of button names and associated functions as input arguments. It then generates buttons with the specified text and command functions.
+
+5. Immutable Data: The data attributes in the Patient class are defined using tk.StringVar(), making them immutable. This ensures that these variables cannot be modified directly, promoting safer data handling practices.
+
+These functional programming aspects contribute to cleaner, more modular, and easier-to-understand code, enhancing readability, maintainability, and reusability.
+
+## 11. Domain Specific Language:
 In the project, I implemented Domain Specific Language (DSL) elements to enhance code readability and maintainability. Here's how I integrated DSL:
 
 Clear Abstractions: I wrote the code with clear abstractions concepts like patients, prescriptions, and medical records.
