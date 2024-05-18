@@ -101,6 +101,16 @@ I also made use of the **pylint** library to analyse the code for convention mis
 
    
 ## 6 & 7. Build Management and CI/CD:
+I used GitHub Actions in conjunction with Codacy for CI/CD pipeline integration.
+
+Here is the link the yaml file for ![Github Actions](https://github.com/AishaFaheem/HospitalManagementSystem/blob/main/.github/workflows/codacy-analysis.yml)
+
+And here is a screenshot of the completed action
+
+
+![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/9cb430e6-727d-4940-b850-9b3526d979a1)
+
+
 ## 8. Unit Tests:
 ## 9. IDE:
 ## 10. DSL:
