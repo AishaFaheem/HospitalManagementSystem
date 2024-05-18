@@ -38,6 +38,14 @@ Adding up on that, the code exhibits elements of DDD, including bounded contexts
 
 - Services: Methods within HospitalApp serve as domain services, encapsulating business logic and facilitating interactions between entities, value objects, and repositories.
 
+4. Metrics:
+5. Clean Code Development:
+6 & 7. Build Management and CI/CD:
+8. Unit Tests:
+9. IDE:
+10. DSL:
+11. Functional Programming:
+
 
 
 
