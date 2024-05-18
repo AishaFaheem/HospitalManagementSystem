@@ -86,6 +86,19 @@ Code Quality: <a href="https://app.codacy.com/gh/AishaFaheem/HospitalManagementS
 
 
 ## 5. Clean Code Development:
+To ensure my project is easy to understand, I used standard naming conventions with simple declarations like **create_patient_info_fields()** and **fetch_data()**.
+
+I also made use of the **pylint** library to analyse the code for convention mistakes.
+
+
+![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/c8fe6a93-3ed3-4849-a485-92675d2d5fae)
+
+
+
+![2](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/f879bcb0-71af-44f6-ae3a-9d0e737a5e67)
+
+
+
    
 ## 6 & 7. Build Management and CI/CD:
 ## 8. Unit Tests:
