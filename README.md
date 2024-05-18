@@ -118,3 +118,16 @@ Unit testing for my code is done in the unit_test.py file. The file tests adding
 ## 9. IDE:
 ## 10. DSL:
 ## 11. Functional Programming:
+This code exhibits several aspects of functional programming:
+
+1. Modularity: The code is divided into classes and methods, each responsible for a specific functionality. For example, the HospitalApp class handles GUI initialization, database operations, and button actions, while the Patient class initializes patient data attributes.
+
+2. Pure Functions: Many methods in the HospitalApp class can be considered as pure functions as they rely only on their input arguments and do not modify any external state. For example, the create_patient_info_fields method takes frame as input and generates patient information fields within that frame without modifying any external state.
+
+3. First-class Functions: Functions are treated as first-class citizens. For example, button commands are assigned functions (self.i_prescription, self.i_prescription_data, etc.), and these functions can be passed around as arguments and returned from other functions.
+
+4. Higher-order Functions: The create_buttons method creates buttons dynamically by taking a list of button names and associated functions as input arguments. It then generates buttons with the specified text and command functions.
+
+5. Immutable Data: The data attributes in the Patient class are defined using tk.StringVar(), making them immutable. This ensures that these variables cannot be modified directly, promoting safer data handling practices.
+
+These functional programming aspects contribute to cleaner, more modular, and easier-to-understand code, enhancing readability, maintainability, and reusability.
