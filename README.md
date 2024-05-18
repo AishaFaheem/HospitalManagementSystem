@@ -130,11 +130,11 @@ I opted for Visual Studio Code (VS Code) as my IDE for the Hospital Management S
 ## 10. DSL:
 In the project, I implemented Domain Specific Language (DSL) elements to enhance code readability and maintainability. Here's how I integrated DSL:
 
-Clear Abstractions: I designed the codebase with clear abstractions representing domain concepts like patients, prescriptions, and medical records. Each aspect of the system was modeled with intuitive class structures and method names.
+Clear Abstractions: I wrote the code with clear abstractions concepts like patients, prescriptions, and medical records.
 
-Readable Method Naming: I employed meaningful method names that reflect domain actions, making the code self-explanatory and easy to understand. For example, methods like fetch_data() and update_data() directly correspond to their respective functionalities.
+Readable Method Naming: I used meaningful method names that reflect domain actions, making the code self-explanatory and easy to understand. For example, methods like fetch_data() and update_data() easily explain their respective functionalities.
 
-Consistent Naming Conventions: I adhered to consistent naming conventions throughout the codebase, ensuring clarity and predictability. Whether it's variable names, method names, or class names, consistency in naming fosters understanding and reduces cognitive load for developers.
+Consistent Naming Conventions: I used consistent naming conventions throughout the code, ensuring clarity and predictability.
 
 ## 11. Functional Programming:
 This code exhibits several aspects of functional programming:
