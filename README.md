@@ -61,6 +61,17 @@ The Database class abstracts database operations, acting as a repository interfa
 Methods within HospitalApp serve as domain services, encapsulating business logic and facilitating interactions between entities, value objects, and repositories.
 
 ## 4. Metrics:
+
+To check the metrics of my code, I made use of Codacy. The following are the metrics of my code:
+
+
+Code Quality: <a href="https://app.codacy.com/gh/AishaFaheem/HospitalManagementSystem/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/1afac9a7ef1a464e927851cd1253d833"/></a>
+
+-Issues: ![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/8792f496-ff3c-4699-bf2d-c9236cc7e7a5)
+-Complexity: ![2](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/ed153d73-dc2d-4070-9abf-3f93f51c02fb)
+-Duplication: ![3](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/04879fda-abda-43ae-824f-4aadd8a85002)
+
+
 ## 5. Clean Code Development:
    
 ## 6 & 7. Build Management and CI/CD:
