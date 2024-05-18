@@ -23,7 +23,7 @@ A Class Diagram presents the structure of a system by depicting its classes, alo
 [Activity Diagram:](https://drive.google.com/file/d/1hzPOMeXhx_iHLX5nDVmyN57-fu2rObr7/view?usp=sharing)
 An Activity Diagram illustrates the flow of control or data among different activities within a system. It demonstrates the sequence of actions or steps involved in a process, showcasing decision points, parallel activities, and the overall workflow. Activity diagrams provide insights into the behavior of the system, emphasizing process flow and logic.
 
-3.Domain Driven Design:
+3. Domain Driven Design:
 I have made a [Context Diagram](https://drive.google.com/file/d/1xaLQFyUG9PUT4wXm8WZ89wdPQFA-CKCe/view?usp=sharing) for my project manually and also made an [Event Storming Diagram](https://www.mermaidchart.com/raw/e5abad4e-62e8-478c-8d51-6fbd40eebb18?theme=light&version=v0.1&format=svg) via Mermaid.
 
 Adding up on that, the code exhibits elements of DDD, including bounded contexts, entities, value objects, repositories, and services, reflecting a domain-centric approach to hospital management system design.
