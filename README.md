@@ -116,6 +116,17 @@ Unit testing for my code is done in the unit_test.py file. The file tests adding
 
 
 ## 9. IDE:
+I opted for Visual Studio Code (VS Code) as my IDE for the Hospital Management System project due to:
+
+-Familiarity: Having prior experience with VS Code, I felt comfortable and efficient using it.
+
+-Cross-Platform Compatibility: VS Code works seamlessly across different operating systems, ensuring consistency in my development environment.
+
+-Extensive Extensions: Its vast library of extensions tailored to various needs, from syntax highlighting to debugging, enhanced my productivity. Extensions like SonarLint which aided me in terms of clean Code Development, Gitpod and Sonarcube.
+
+-Integrated Terminal: The integrated terminal eliminated the need to switch between applications, streamlining my workflow.
+
+
 ## 10. DSL:
 ## 11. Functional Programming:
 This code exhibits several aspects of functional programming:
