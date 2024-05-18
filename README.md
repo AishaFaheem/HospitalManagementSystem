@@ -17,7 +17,7 @@ A Use Case Diagram provides a visual representation of the functionality offered
 [Sequence Diagram](direct_image_url)  
 In a Sequence Diagram, the interactions between various processes or components of a system are illustrated, showing the sequence in which these interactions occur. It visually depicts how processes communicate with each other over time, highlighting the order of execution and the exchange of messages.
 
-[Class Diagram]([https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing])  
+[Class Diagram](https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing)  
 A Class Diagram presents the structure of a system by depicting its classes, along with their attributes, methods (or operations), and the relationships between objects. It offers a static view of the system's architecture, emphasizing the blueprint of its components and their associations.
 
 [Activity Diagram](direct_image_url)  
