@@ -81,6 +81,10 @@ Code Quality: <a href="https://app.codacy.com/gh/AishaFaheem/HospitalManagementS
 
 -Duplication: 
 
+
+![1](https://github.com/AishaFaheem/HospitalManagementSystem/assets/64909342/a5b056a1-e0b3-4bb6-b0e2-4fa1a8d11d28)
+
+
 ## 5. Clean Code Development:
    
 ## 6 & 7. Build Management and CI/CD:
