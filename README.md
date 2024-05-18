@@ -11,17 +11,18 @@ Hospital Management System is a Project in python created by Aisha Faheem (10257
    
 I created UML Diagrams using draw.io, manually.
    
-<a href="[https://drive.google.com/file/d/1C8CwuUi2ikwfCBTvw4JreK1dGvGdz1bP/view?usp=sharing]" target="_blank"> Use Case Diagram: </a> 
+[Use Case Diagram](direct_image_url)  
 A Use Case Diagram provides a visual representation of the functionality offered by a system, depicting actors, their objectives, and any interactions or dependencies between those use cases. It offers a high-level overview of how users (actors) interact with the system to accomplish specific goals.
 
-<a href="[https://drive.google.com/file/d/1yZeZiP1Gu3jgwc8QjmWHAnJmd7GfYQoG/view?usp=sharing]" target="_blank"> Sequence Diagram: </a> 
+[Sequence Diagram](direct_image_url)  
 In a Sequence Diagram, the interactions between various processes or components of a system are illustrated, showing the sequence in which these interactions occur. It visually depicts how processes communicate with each other over time, highlighting the order of execution and the exchange of messages.
 
-<a href="[https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing]" target="_blank"> Class Diagram: </a> 
+[Class Diagram]([https://drive.google.com/file/d/14xqMyPHplQVmKomeD5NCnVyrb5p4PGbl/view?usp=sharing])  
 A Class Diagram presents the structure of a system by depicting its classes, along with their attributes, methods (or operations), and the relationships between objects. It offers a static view of the system's architecture, emphasizing the blueprint of its components and their associations.
 
-<a href="[https://drive.google.com/file/d/1hzPOMeXhx_iHLX5nDVmyN57-fu2rObr7/view?usp=sharing]" target="_blank"> Activity Diagram: </a> 
+[Activity Diagram](direct_image_url)  
 An Activity Diagram illustrates the flow of control or data among different activities within a system. It demonstrates the sequence of actions or steps involved in a process, showcasing decision points, parallel activities, and the overall workflow. Activity diagrams provide insights into the behavior of the system, emphasizing process flow and logic.
+
 
 
 
